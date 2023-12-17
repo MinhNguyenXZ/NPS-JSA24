@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./c3.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-register">
+            
+            <Form id="register-form">
+                <div class="input-box">
+                    <label for="username">Full name</label>
+                    <input id="username" name="username" type="text" placeholder="Your full name" >
+                 </div>
+
+                 <div class="input-box">
+                     <label for="phonenumber">Password</label>
+                     <input type="phonenumber" id="phonenumber" name="Password" placeholder="Your Password"  >
+                    </div>
+
+                    <div class="input-box">  
+                        <label for="phonenumber">D.O.B</label>
+                        <label>
+                            <input type="date" name="bday" />
+                          </label>
+                    </div>
+                       
+                    <div class="input-box">
+                        <label for="gender">Gender</label>
+                        <input id="male"  name="gender" type="radio" value="male">
+                        <label for="male">male</label>
+                
+                        <input id="female" name="gender" type="radio" value="female">
+                        <label for="female">female</label>
+                
+                        <input id="other" name="gender" type="radio" value="other">
+                        <label for="other">other</label>
+                    </div>
+                <button class="btn" type="submit">Register</button>
+                
+                
+    
+                
+            </Form>
+        </div>
+       </div>
+    <script src="./c3.js">
+       let form = document.getElementById("register-form");
+     form.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      console.log(form.email.value);
+     })
+    </script>
+</body>
+</html>
