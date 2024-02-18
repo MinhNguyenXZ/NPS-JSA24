@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.home{
+    background-color: rgb(245, 124, 124);
+    padding: 0 7vw;
+}
+
+body{
+    background-color: rgb(245, 124, 124);
+}
+
+.main_slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.main_slide div:nth-child(2){
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.main_slide img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.main_slide div:nth-child(1){
+    padding-top: 80px ;
+    flex: 1;
+    font-size: 30px;
+}
+
+.main_slide div:nth-child(1) p{
+    font-size: 13px;
+    padding: 20px 0;
+}
+
+.main_slide div:nth-child(1) span{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: rgb(253, 176, 34) ;
+    text-decoration-color: red;
+}
+
+.red_btn{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 160px;
+    font-weight: bold;
+    color: aliceblue;
+    line-height: 50px;
+    
+    border-radius: 5px;
+    border: 1px solid rgb(253, 77, 8);
+    box-shadow: 0 10px 15px rgb(250, 120, 69);
+    transition: all 0.2s;
+    padding: 5px 10px;
+    width: 300px;
+    background-color: rgb(255, 243, 77);
+    color: rgb(242, 73, 73);
+    cursor: pointer;
+}
+
+
+
+.red_btn i {
+    color: rgb(246, 62, 62);
+    transition: all 0.2s;
+}
+
+.red_btn:hover{
+    background-color: rgb(246, 62, 62);
+    box-shadow: 0 2px 15px rgb(250, 120, 69);
+    border: 1px solid rgb(253, 77, 8);
+    color: rgb(255, 243, 77);
+}
+
+.red_btn:hover i{
+    color: rgb(253, 77, 8);
+}
+
+.food-items {
+     margin: 50px 0; 
+     padding: 40px 0; 
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.item{
+    width: 250px;
+    padding: 50px;
+    text-align: center;
+}
+
+.item div{
+    height: 160px;
+}
+
+.item img{
+    width: 200px;
+    margin-bottom: 15px;
+    
+}
+
+.item h3{
+    font-size: 18px;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.white_btn{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 160px;
+    font-weight: bold;
+    color: rgb(253, 77, 8);
+    line-height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(253, 77, 8);
+    box-shadow: 0 2px 15px rgb(250, 120, 69);
+    transition: all 0.2s;
+}
+
+.white_btn:hover{
+    color: white;
+    background-color: rgb(253, 77, 8);
+    box-shadow: rgb(250, 120, 69);
+}
+
+.item .red_btn, .item .white_btn{
+    width: 120px;
+    line-height: 35px;
+}
+.item image{ 
+     padding-bottom: 10px ;
+}
+.foodimg{
+    flex: 0.5;
+}
+
+.foodimg img{
+    max-width: 500px;
+    width: 45vw;
+}
+
+.footer{
+    padding: 60px 0;
+    border-top: 2px solid orangered;
+    background-color: rgb(255, 212, 112);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-1 .logo img{
+    width: 80px;
+}
+
+.footer-1 p{
+    cursor: pointer;
+    font-size: 14px;
+    padding: 4px;
+    color: black;
+}
+
+.footer-2{
+    text-align: center;
+    cursor: pointer;
+}
+
+.footer-2 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(253, 57, 8);
+    font-size: 30px;
+}
+
+.footer-2 img{
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    margin: 15px 0;
+    transition: 0.2;
+    background-color: white;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.06);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
