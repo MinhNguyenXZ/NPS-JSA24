@@ -1,0 +1,14 @@
+*{
+    font-family: 'Exo', sans-serif;
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a{
+    color: inherit;
+    cursor: pointer;
+}
+
+
